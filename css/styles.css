@@ -892,6 +892,81 @@ ul, ol {
   color: var(--text-muted);
 }
 
+/* ----- Brand Promos ----- */
+.brand-promos {
+  padding: 0 var(--gutter) var(--space-6);
+}
+
+.promo-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+/* ----- Promo Card (reusable) ----- */
+.promo-card {
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  position: relative;
+  overflow: hidden;
+  min-height: 200px;
+}
+
+.promo-card.amber {
+  background: linear-gradient(135deg, var(--accent-amber), var(--accent-amber-soft));
+}
+
+.promo-card.light-blue {
+  background: var(--brand-blue-light);
+}
+
+.promo-card h3 {
+  font-size: var(--text-lg);
+  font-weight: var(--weight-bold);
+  color: var(--text-strong);
+}
+
+.promo-card .offer-text {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  font-weight: var(--weight-medium);
+}
+
+.promo-card .promo-btn {
+  align-self: flex-start;
+  padding: var(--space-2) var(--space-5);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  transition: opacity 0.2s;
+}
+
+.promo-card .promo-btn.dark {
+  background: var(--text-strong);
+  color: white;
+}
+
+.promo-card .promo-btn.blue {
+  background: var(--brand-blue);
+  color: white;
+}
+
+.promo-card .promo-btn:hover {
+  opacity: 0.9;
+}
+
+.promo-card img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 80%;
+  max-width: 45%;
+  object-fit: contain;
+}
+
 /* ----- Utility: Section Container ----- */
 .container {
   padding-left: var(--gutter);
