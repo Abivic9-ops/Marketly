@@ -380,17 +380,59 @@
       </div>
     </section>
 
-    <section class="testimonial">
-      <!-- customer review -->
+    <section class="testimonial" aria-label="Customer review">
+      <div class="testimonial-content">
+        <div class="testimonial-avatar">
+          <img src="assets/img/avatar-emily.jpg" alt="Emily Johnson" width="48" height="48" loading="lazy" />
+        </div>
+        <div class="testimonial-text">
+          <p class="testimonial-name">Emily Johnson</p>
+          <p class="testimonial-verified">Verified Buyer</p>
+          <blockquote class="testimonial-quote">&ldquo;Great products, fast delivery, and excellent customer service. Marketly is my go-to shopping destination!&rdquo;</blockquote>
+        </div>
+      </div>
+      <div class="testimonial-dots">
+        <span class="dot active" aria-label="Review 1 of 3, current"></span>
+        <span class="dot" aria-label="Review 2 of 3"></span>
+        <span class="dot" aria-label="Review 3 of 3"></span>
+      </div>
     </section>
 
-    <section class="newsletter">
-      <!-- newsletter sign-up -->
+    <section class="newsletter" aria-labelledby="newsletter-heading">
+      <svg class="newsletter-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      <h2 id="newsletter-heading">Get Exclusive Offers &amp; Updates</h2>
+      <p class="subline">Join our newsletter and save more on your favorite products.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email address" aria-label="Email address" required />
+        <button type="submit">Subscribe</button>
+      </form>
     </section>
   </main>
 
   <footer class="bottom-tabs" role="tablist" aria-label="Main navigation">
-    <!-- bottom tab bar -->
+    <a href="#" class="tab-item active" role="tab" aria-selected="true" aria-label="Home">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="#" class="tab-item" role="tab" aria-selected="false" aria-label="Categories">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      <span>Categories</span>
+    </a>
+    <a href="#" class="tab-item" role="tab" aria-selected="false" aria-label="Deals">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+      <span>Deals</span>
+    </a>
+    <a href="#" class="tab-item" role="tab" aria-selected="false" aria-label="Wishlist">
+      <span class="tab-icon-wrap">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        <span class="tab-badge" aria-label="2 items">2</span>
+      </span>
+      <span>Wishlist</span>
+    </a>
+    <a href="#" class="tab-item" role="tab" aria-selected="false" aria-label="Account">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      <span>Account</span>
+    </a>
   </footer>
 
   <script src="js/countdown.js" defer></script>
