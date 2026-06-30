@@ -176,11 +176,87 @@
     </section>
 
     <section class="popular-categories" aria-labelledby="popular-heading">
-      <!-- popular categories -->
+      <div class="section-header">
+        <h2 id="popular-heading">Popular Categories</h2>
+        <a href="#" class="view-all">View All &rarr;</a>
+      </div>
+      <div class="popular-grid">
+        <article class="popular-card">
+          <img src="assets/img/cat-fashion-lg.jpg" alt="Fashion category" width="60" height="60" loading="lazy" />
+          <h3 class="category-name">Fashion</h3>
+          <p class="item-count">20,000+ items</p>
+        </article>
+        <article class="popular-card">
+          <img src="assets/img/cat-electronics-lg.jpg" alt="Electronics category" width="60" height="60" loading="lazy" />
+          <h3 class="category-name">Electronics</h3>
+          <p class="item-count">15,000+ items</p>
+        </article>
+        <article class="popular-card">
+          <img src="assets/img/cat-beauty-lg.jpg" alt="Beauty category" width="60" height="60" loading="lazy" />
+          <h3 class="category-name">Beauty</h3>
+          <p class="item-count">8,000+ items</p>
+        </article>
+        <article class="popular-card">
+          <img src="assets/img/cat-home-lg.jpg" alt="Home Decor category" width="60" height="60" loading="lazy" />
+          <h3 class="category-name">Home Decor</h3>
+          <p class="item-count">12,000+ items</p>
+        </article>
+      </div>
     </section>
 
     <section class="featured-products section" aria-labelledby="featured-heading">
-      <!-- featured products -->
+      <div class="section-header">
+        <h2 id="featured-heading">Featured Products</h2>
+        <a href="#" class="view-all">View All &rarr;</a>
+      </div>
+      <div class="scroll-rail">
+        <article class="product-card" itemscope itemtype="https://schema.org/Product">
+          <span class="discount-badge" aria-label="25 percent off">-25%</span>
+          <div class="product-image">
+            <img src="assets/img/product-sneakers.jpg" alt="Men's Air Sneakers Running Shoes" width="150" height="150" loading="lazy" itemprop="image" />
+            <button class="wishlist-toggle" aria-label="Add to wishlist">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </button>
+          </div>
+          <h3 class="product-title" itemprop="name">Men's Air Sneakers Running Shoes</h3>
+          <div class="star-rating" aria-label="4.5 out of 5 stars">
+            <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span class="review-count" itemprop="reviewCount">(1,234)</span>
+          </div>
+          <div class="price-pair">
+            <span class="current-price" itemprop="price" content="7799">KSh 7,799</span>
+            <span class="original-price" itemprop="price" content="10400"><s>KSh 10,400</s></span>
+          </div>
+          <button class="add-to-cart" aria-label="Add to cart">Add to Cart</button>
+        </article>
+        <article class="product-card" itemscope itemtype="https://schema.org/Product">
+          <span class="discount-badge" aria-label="20 percent off">-20%</span>
+          <div class="product-image">
+            <img src="assets/img/product-earbuds.jpg" alt="Premium Wireless Earbuds Pro" width="150" height="150" loading="lazy" itemprop="image" />
+            <button class="wishlist-toggle" aria-label="Add to wishlist">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </button>
+          </div>
+          <h3 class="product-title" itemprop="name">Premium Wireless Earbuds Pro</h3>
+          <div class="star-rating" aria-label="4.5 out of 5 stars">
+            <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span class="review-count" itemprop="reviewCount">(2,631)</span>
+          </div>
+          <div class="price-pair">
+            <span class="current-price" itemprop="price" content="9100">KSh 9,100</span>
+            <span class="original-price" itemprop="price" content="13000"><s>KSh 13,000</s></span>
+          </div>
+          <button class="add-to-cart" aria-label="Add to cart">Add to Cart</button>
+        </article>
+      </div>
     </section>
 
     <section class="brand-promos">
