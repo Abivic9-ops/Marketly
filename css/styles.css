@@ -552,6 +552,119 @@ ul, ol {
   line-height: 1.2;
 }
 
+/* ----- Flash Deal ----- */
+.flash-deal {
+  margin: 0 var(--gutter) var(--space-6);
+  background: linear-gradient(135deg, var(--brand-blue), #1D4ED8);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: white;
+}
+
+.flash-deal-thumb {
+  width: 70px;
+  height: 70px;
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.flash-deal-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.flash-deal-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.flash-deal-title {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.flash-deal-subtitle {
+  font-size: 10px;
+  opacity: 0.85;
+}
+
+.flash-deal-price {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-1);
+}
+
+.flash-deal-price .current {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+}
+
+.flash-deal-price .original {
+  font-size: 11px;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.flash-deal-btn {
+  background: var(--accent-amber);
+  color: var(--text-strong);
+  font-size: 10px;
+  font-weight: var(--weight-bold);
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  align-self: flex-start;
+  margin-top: var(--space-1);
+  transition: opacity 0.2s;
+}
+
+.flash-deal-btn:hover {
+  opacity: 0.9;
+}
+
+.flash-deal-timer {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.timer-box {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-sm);
+  padding: 4px 6px;
+  text-align: center;
+  min-width: 40px;
+}
+
+.timer-box .number {
+  font-size: var(--text-base);
+  font-weight: var(--weight-bold);
+  line-height: 1.2;
+  display: block;
+}
+
+.timer-box .label {
+  font-size: 7px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+
 /* ----- Utility: Section Container ----- */
 .container {
   padding-left: var(--gutter);
