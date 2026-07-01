@@ -33,7 +33,7 @@ A **mobile-first, static e-commerce home screen** for Marketly, a Kenyan online 
 | **CSS3** | Custom properties (design tokens), Flexbox, Grid, scroll-snap, responsive breakpoints, `prefers-reduced-motion` |
 | **JavaScript (vanilla)** | Flash-deal countdown timer — 40 lines, IIFE pattern |
 | **Google Fonts** | Inter (geometric/grotesque sans) |
-| **Icons** | Inline Lucide SVGs (no external icon dependency) |
+| **Icons** | Inline Lucide SVGs + Boxicons (CDN) for decorative elements |
 | **Images** | Inline SVG illustrations (no external image dependency) |
 | **Deployment** | GitHub Pages (static hosting) |
 
