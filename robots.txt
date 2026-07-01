@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-USERNAME.github.io/marketly-store/sitemap.xml
+Sitemap: https://Abivic9-ops.github.io/Marketly/sitemap.xml

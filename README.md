@@ -2,7 +2,7 @@
 
 A **mobile-first, static e-commerce home screen** for Marketly, a Kenyan online marketplace. Built entirely with semantic HTML5 and hand-written CSS3 — no frameworks, no build tools, and minimal vanilla JavaScript (just a countdown timer).
 
-**Live demo:** `https://YOUR-USERNAME.github.io/marketly-store/`
+**Live demo:** `https://Abivic9-ops.github.io/Marketly/`
 
 ---
 
@@ -227,7 +227,7 @@ None — just a modern web browser.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/marketly-store.git
+git clone https://github.com/Abivic9-ops/Marketly.git
 
 # Navigate into the project
 cd marketly-store
